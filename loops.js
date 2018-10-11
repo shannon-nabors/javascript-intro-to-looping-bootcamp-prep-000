@@ -63,11 +63,8 @@ function incrementVariable() {
 function doWhileLoop(doWhileArray) {
   do {
     console.log(doWhileArray);
-    doWhileArray.pop;
+    doWhileArray.pop();
     //incrementVariable();
   } while (doWhileArray.length > 0 && incrementVariable());
   return doWhileArray;
 }
-
-doWhileArray.pop();
-console.log(doWhileArray);
