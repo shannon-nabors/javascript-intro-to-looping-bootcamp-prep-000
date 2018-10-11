@@ -69,5 +69,5 @@ function doWhileLoop(doWhileArray) {
   return doWhileArray;
 }
 
-doWhileArray = doWhileArray.pop;
+doWhileArray = doWhileArray.pop();
 console.log(doWhileArray);
