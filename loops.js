@@ -68,3 +68,5 @@ function doWhileLoop(doWhileArray) {
   } while (doWhileArray.length > 0 && incrementVariable());
   return doWhileArray;
 }
+
+doWhileLoop(doWhileArray);
