@@ -64,8 +64,7 @@ function doWhileLoop(doWhileArray) {
   do {
     console.log(doWhileArray);
     doWhileArray.pop();
-    incrementVariable();
-  } while (doWhileArray.length > 0 && incrementVariable());
+  } while (doWhileArray.length);
   return doWhileArray;
 }
 
